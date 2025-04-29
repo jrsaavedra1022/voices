@@ -1,0 +1,12 @@
+{
+    "ana": {
+      "model_dir": "tts_models--es--mai--tacotron2-DDC",
+      "model_file": "model_file.pth",
+      "config_file": "config.json"
+    },
+    "carlos": {
+      "model_dir": "tts_models--es--css10--vits",
+      "model_file": "model_file.pth.tar",
+      "config_file": "config.json"
+    }
+  }

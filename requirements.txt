@@ -1,0 +1,6 @@
+TTS
+pydub
+tqdm
+soundfile
+spacy
+python-dotenv
