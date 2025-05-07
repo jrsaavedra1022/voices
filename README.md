@@ -23,10 +23,17 @@ pip3 install -r requirements.txt
 
 ## Ejecutar el archivo
 
-- Verificar el archivo `src/config/settings.py` y crear un archivo `.env`con las configuraciones necesarias.
-- Utilizar el archivo `src/download_model.py` para descargar los modelos necesarios.
+- Verificar el archivo `biovoice/config/settings.py` y crear un archivo `.env`con las configuraciones necesarias.
+- Utilizar el archivo `biovoice/download_model.py` para descargar los modelos necesarios.
 - Realizar la ejecución del proyecto
 
 ```shell
-python3 src/main.py
+python3 biovoice/app.py 
+```
+
+ - Se lo ejecutas por sh configura los archivos .env
+
+```shell
+chmod +x run_with_voice.sh
+bash run_with_voice.sh carlos
 ```

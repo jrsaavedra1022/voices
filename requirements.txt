@@ -4,3 +4,8 @@ tqdm
 soundfile
 spacy
 python-dotenv
+noisereduce 
+librosa 
+scipy 
+numpy
+pyloudnorm
